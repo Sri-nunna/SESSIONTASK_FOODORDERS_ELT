@@ -1,0 +1,28 @@
+{
+    "source_file_records_extracted": 1010,
+    "source_batch_size": 100,
+    "source_batches_processed": 11,
+    "raw_records_loaded_this_run": 1010,
+    "raw_table_total_records": 1010,
+    "raw_records_retrieved": 1010,
+    "retrieval_batches_processed": 11,
+    "valid_records_transformed": 1000,
+    "rejected_records": 10,
+    "transformed_records_loaded_this_run": 1000,
+    "analytics_table_total_records": 1000,
+    "successful_batches": 21,
+    "failed_batches": 0,
+    "validation_checks": {
+        "expected_columns_present": true,
+        "no_full_duplicate_rows": true,
+        "no_negative_delivery_durations": true,
+        "datetime_columns_are_datetime": true,
+        "financial_columns_are_numeric": true,
+        "revenue_only_when_all_components_present": true,
+        "delivery_duration_calculation_correct": true,
+        "revenue_formula_calculation_correct": true,
+        "unique_order_ids_in_accepted_records": true
+    },
+    "final_validation_status": "PASS",
+    "rejected_records_file": "C:\\Users\\harih\\Downloads\\SRI\\Assignment\\ELT_Datapipeline\\food_orders_elt_batch_project\\food_orders_elt_batch_project\\reports\\rejected_records.csv"
+}
